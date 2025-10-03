@@ -12,6 +12,13 @@ function show(ShowService) {
     };
     return directive;
     function controller($scope) {
+
+        $scope.onShowCardInit = (showCard)=>{
+            showCard.onView = ()=>{
+                document.location.href = showCard.props.viewlink;
+            }
+        }
+
         $scope.genres = [];
         ShowService.get($scope.show.id).then(function(response){
             $scope.genres = response.genres;

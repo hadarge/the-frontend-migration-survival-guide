@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build && npm run serve",
+    "start": "tsc -b -w & vite build --watch & npm run serve",
     "watch": "npx chokidar-cli 'src/**/*' --initial --ignore 'dist/**' -c 'npm run build'",
     "lint": "eslint .",
     "preview": "vite preview",
