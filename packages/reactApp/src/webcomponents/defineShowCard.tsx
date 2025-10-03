@@ -6,7 +6,6 @@ export const defineShowCard = () => {
     class MyElement extends HTMLElement {
         static get observedAttributes(): string[] {
             return ['title', 'date', 'rating', 'country', 'imageurl', 'viewlink'];
-            //     genres = ["Action & Adventure", "Drama"],
         }
 
         private shadow: ShadowRoot;

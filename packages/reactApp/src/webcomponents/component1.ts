@@ -16,7 +16,7 @@ export class MyElement extends HTMLElement {
 
     constructor() {
         super();
-        this.root = this.attachShadow({mode: 'open'});
+       // this.root = this.attachShadow({mode: 'open'});
     }
 
     connectedCallback(): void {
