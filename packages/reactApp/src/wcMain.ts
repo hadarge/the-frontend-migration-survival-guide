@@ -9,12 +9,12 @@ defineComponent1();
 //     console.log('customOnClick ', times);
 // }
 
-import {defineLikeButton} from "./webcomponents/defineLikeButton.tsx";
-import {defineVideoPlayer} from "./webcomponents/defineVideoPlayer.tsx";
+//import {defineLikeButton} from "./webcomponents/defineLikeButton.tsx";
+//import {defineVideoPlayer} from "./webcomponents/defineVideoPlayer.tsx";
 import {defineShowCard} from "./webcomponents/defineShowCard.tsx";
 
-defineLikeButton();
-defineVideoPlayer();
+//defineLikeButton();
+//defineVideoPlayer();
 defineShowCard();
 //
 // import type {LikeButton} from "./webcomponents/defineLikeButton.tsx";

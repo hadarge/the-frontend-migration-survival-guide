@@ -5,13 +5,20 @@ export const ShowCard = ({
                              country = "US",
                              genres = ["Action & Adventure", "Drama"],
                              viewlink = '',
-                             imageurl  = "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=800&h=500&fit=crop",
+                             imageurl = "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=800&h=500&fit=crop",
                              onView = () => {
                                  document.location.href = viewlink
                              }
                          }) => {
     return (
         <div className="w-full max-w-2xl mx-auto bg-white rounded-lg overflow-hidden shadow-lg font-sans">
+
+            {/*<img*/}
+            {/*    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"*/}
+            {/*    alt="React Logo"*/}
+            {/*    className="absolute z-10 h-20 right-1"*/}
+            {/*/>*/}
+
             {/* Image Container */}
             <div className="relative h-96">
                 <img
