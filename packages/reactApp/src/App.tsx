@@ -1,6 +1,7 @@
 import './App.css'
 import {LikeButton} from "./components/LikeButton.tsx";
 import {VideoPlayer} from "./components/VideoPlayer.tsx";
+import {ShowCard} from "./components/ShowCard.tsx";
 
 function App() {
     return <>
@@ -14,6 +15,8 @@ function App() {
                     This is a sample post with a like button. <br/>
                     Click the heart to like or unlike!
                 </p>
+
+                <ShowCard/>
 
                 <VideoPlayer
                     src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"

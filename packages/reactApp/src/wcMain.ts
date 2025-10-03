@@ -11,9 +11,11 @@ defineComponent1();
 
 import {defineLikeButton} from "./webcomponents/defineLikeButton.tsx";
 import {defineVideoPlayer} from "./webcomponents/defineVideoPlayer.tsx";
+import {defineShowCard} from "./webcomponents/defineShowCard.tsx";
 
 defineLikeButton();
 defineVideoPlayer();
+defineShowCard();
 //
 // import type {LikeButton} from "./webcomponents/defineLikeButton.tsx";
 // import type {VideoPlayer} from "./webcomponents/defineVideoPlayer.tsx";
