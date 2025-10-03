@@ -55,8 +55,8 @@ This repo demonstrates real-world patterns for exposing  **React Components** as
 ## 📁 Structure
 
 ```
-/packages/react-app         → React host application & WC components exposer module
-/packages/angularjs-by-example        → AngularJS host application
+/packages/react-app                → React host application & WC components exposer module
+/packages/angularjs-by-example     → AngularJS host application
 ```
 
 ---
