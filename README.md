@@ -90,7 +90,7 @@ Topic: **"The Frontend Migration Survival Guide"**
 
 - Node 22 & Node 11
 - React 19
-- AngularJS 19
+- AngularJS
 - Vite
 - Gulp
 - Vanilla Web Components (no framework-specific WC library)
