@@ -1,6 +1,6 @@
 # 🧪 The Frontend Migration Survival Guide
 
-A hands-on example repository from the **DevFestDC** talk — exploring how **React** and **Web Components** can work together.
+A hands-on example repository from the **DevFestDC** talk — exploring how **React** and **Web Components** can work together as part of migration efforts. 
 
 ## 🎯 Purpose
 
