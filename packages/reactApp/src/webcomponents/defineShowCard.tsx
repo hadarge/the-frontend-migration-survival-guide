@@ -37,6 +37,16 @@ export const defineShowCard = () => {
             this.render();
         }
 
+        disconnectedCallback() {
+            if (this.root){
+                // React 18+
+                this.root.unmount();
+                // React <18
+                // ReactDOM.unmountComponentAtNode(this._mountPoint);
+                this.root = null;
+            }
+        }
+
         attributeChangedCallback(attrName: string, oldVal: string | null, newVal: string | null): void {
             if (oldVal !== newVal) {
                 this.props[attrName] = newVal;
