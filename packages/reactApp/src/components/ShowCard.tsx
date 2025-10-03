@@ -1,3 +1,5 @@
+//import {useGlobalStore} from "../hooks/useGlobalStore.ts";
+
 export const ShowCard = ({
                              title = "The Walking Dead",
                              date = "31-10-2010",
@@ -10,6 +12,9 @@ export const ShowCard = ({
                                  document.location.href = viewlink
                              }
                          }) => {
+
+    //const [state, setState] = useGlobalStore();
+
     return (
         <div className="w-full max-w-2xl mx-auto bg-white rounded-lg overflow-hidden shadow-lg font-sans">
 
@@ -56,6 +61,21 @@ export const ShowCard = ({
                         </svg>
                         <span className="text-red-500 text-4xl font-bold">{rating}</span>
                     </div>
+
+
+                    {/*/!* state usage *!/*/}
+                    {/*<div className="flex flex-col items-center justify-center p-6 space-y-4 rounded-2xl shadow-md w-64">*/}
+                    {/*    <p className="text-lg font-semibold text-gray-700">*/}
+                    {/*        Counter: <span className="text-blue-600">{state.counter}</span>*/}
+                    {/*    </p>*/}
+
+                    {/*    <button*/}
+                    {/*        onClick={() => setState({ counter: state.counter + 1 })}*/}
+                    {/*        className="px-5 py-2 rounded-lg bg-blue-500 text-white font-medium shadow hover:bg-blue-600 transition"*/}
+                    {/*    >*/}
+                    {/*        ➕ Add 1*/}
+                    {/*    </button>*/}
+                    {/*</div>*/}
 
                     {/* Country */}
                     <div className="flex items-center gap-2">
